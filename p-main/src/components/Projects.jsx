@@ -5,13 +5,15 @@ import { fadeInUp, staggerContainer } from "../utils/animations";
 const projectData = [
   {
     id: 1,
-    title: "MemoryBox App",
+    title: "University Management Systsem app",
     description: "A smart time‑capsule app built for Android devices. Features secure local storage and scheduled notifications to remind users of precious memories.",
     tags: ["Android SDK", "Java", "SQLite", "Room DB"],
-    // Use the first image from your array as the cover
-    image: "/images/app1.png", 
-    github: "https://github.com/yourrepo",
-    video: "https://youtube.com/watch?v=demo",
+
+    image: 
+        "/images/memorybox-2.jpg", 
+        
+    github: "https://github.com/emranrakib62/city_university_management_system_App",
+    video: "https://www.youtube.com/shorts/5Zgj9Z6TJP4",
     isFeatured: true,
   },
   {
@@ -24,6 +26,56 @@ const projectData = [
     video: "https://youtube.com/watch?v=demo2",
     isFeatured: false,
   },
+
+
+{
+    id: 3,
+    title: "MemoryBox App",
+    description: "A smart time‑capsule app built for Android devices. Features secure local storage and scheduled notifications to remind users of precious memories.",
+    tags: ["Android SDK", "Java", "SQLite", "Room DB"],
+    // Use the first image from your array as the cover
+    image: "/images/app1.png", 
+    github: "https://github.com/yourrepo",
+    video: "https://youtube.com/watch?v=demo",
+    isFeatured: false,
+  },
+  {
+    id: 4,
+    title: "MoodSketch App",
+    description: "Offline mood‑based sketch drawing app. Utilizes custom canvas views and Neumorphic UI elements for a relaxing creative experience.",
+    tags: ["Kotlin", "Custom Views", "MVVM", "Figma"],
+    image: "/images/mood1.png",
+    github: "https://github.com/yourrepo2",
+    video: "https://youtube.com/watch?v=demo2",
+    isFeatured: false,
+  },
+
+
+
+{
+    id: 5,
+    title: "MemoryBox App",
+    description: "A smart time‑capsule app built for Android devices. Features secure local storage and scheduled notifications to remind users of precious memories.",
+    tags: ["Android SDK", "Java", "SQLite", "Room DB"],
+    // Use the first image from your array as the cover
+    image: "/images/app1.png", 
+    github: "https://github.com/yourrepo",
+    video: "https://youtube.com/watch?v=demo",
+    isFeatured: false,
+  },
+  {
+    id: 6,
+    title: "MoodSketch App",
+    description: "Offline mood‑based sketch drawing app. Utilizes custom canvas views and Neumorphic UI elements for a relaxing creative experience.",
+    tags: ["Kotlin", "Custom Views", "MVVM", "Figma"],
+    image: "/images/mood1.png",
+    github: "https://github.com/yourrepo2",
+    video: "https://youtube.com/watch?v=demo2",
+    isFeatured: false,
+  },
+
+
+
 ];
 
 const ProjectCard = ({ project }) => {
