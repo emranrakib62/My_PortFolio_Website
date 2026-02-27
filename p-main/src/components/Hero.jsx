@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import Typewriter from "typewriter-effect";
 import toast from "react-hot-toast";
@@ -96,9 +96,10 @@ const Hero = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Android Developer ",
-                    "Flutter Enthusiast  ",
-                    "Tech Innovator",
+                    "Flutter Developer",
+                    "Android Developer",
+                    "ICT Instructor",
+                    "Research Enthusiast",
                   ],
                   autoStart: true,
                   loop: true,
@@ -144,10 +145,16 @@ const Hero = () => {
               >
                 <FaFacebook />
               </motion.a>
-
-
-
-
+               <motion.a
+                whileHover={{ scale: 1.2, color: "#10b981" }}
+                whileTap={{ scale: 0.9 }}
+                href="http://www.youtube.com/@sbcian29"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-green-500 transition-colors"
+              >
+                <FaYoutube/>
+              </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2, color: "#10b981" }}
                 whileTap={{ scale: 0.9 }}
@@ -160,6 +167,10 @@ const Hero = () => {
               </motion.a>
             </motion.div>
           </motion.div>
+
+
+
+
 
           {/* Right Image */}
           <motion.div
