@@ -7,14 +7,24 @@ const educationData = [
     id: 1,
     title: "B.Sc. in Computer Science & Engineering (CSE)",
     institute: "City University Bangladesh",
-    years: "July 2022 – Expected 2026",
+    years: "July 2022 – July 2026",
     status: "3.97 / 4.00",
-    description: `Final-year BSc in CSE student at City University of Bangladesh with a strong focus on Android development.
-Skilled in building user-friendly mobile applicaƟons using Java, Kotlin, Android SDK, MVVM architecture,
-and Firebase. Successfully completed a hands-on internship at SkillrexTech, contribuƟng to real-world
-projects. Proficient in RESTful API integraƟon using Retrofit, and passionate about creaƟng scalable and
-efficient applicaƟons. Open to both remote and onsite opportuniƟes to contribute and grow as a mobile
-developer.`,
+    description: `Final-year B.Sc. in CSE student (CGPA: 3.97/4.00) with a primary focus on Flutter development.
+Skilled in building cross-platform mobile applications using Dart, Firebase, and REST APIs.
+Also experienced in native Android development (Java, Kotlin, MVVM).
+Completed a hands-on internship at SkillrexTech working on real-world mobile projects.`,
+  },
+
+
+  {
+    id: 2,
+    title: "Higher Secondary School Certificate(HSC)",
+    institute: "Ruposhi Bangla Collage",
+    years: "July 2017 – 2019",
+    status: "4.17 / 5.00",
+    description: `Completed Higher Secondary Certificate (HSC) in Science with a GPA of 4.17/5.00.
+Built a strong foundation in Mathematics, Physics, and ICT, which later inspired my interest in Computer Science.
+Actively participated in academic and extracurricular activities.`,
   }
 ];
 
