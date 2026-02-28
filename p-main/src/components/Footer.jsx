@@ -33,7 +33,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.15, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="#"
+                href="https://github.com/emranrakib"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-green-900/30 hover:bg-green-500 hover:text-black text-green-400 rounded-full transition-all border border-green-500/20"
@@ -43,7 +43,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.15, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="#"
+                href="https://www.linkedin.com/in/emranul-hoque-479884263/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-green-900/30 hover:bg-green-500 hover:text-black text-green-400 rounded-full transition-all border border-green-500/20"
@@ -53,7 +53,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.15, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="#"
+                href="https://web.facebook.com/e.h.rakib.529335/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-green-900/30 hover:bg-green-500 hover:text-black text-green-400 rounded-full transition-all border border-green-500/20"
@@ -121,8 +121,8 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <a href="#" className="hover:text-green-400 transition-colors">
-                  emran@example.com
+                <a href="mailto: emranrakib01862@gmail.com" className="hover:text-green-400 transition-colors">
+                  emranrakib@cse.com
                 </a>
               </li>
               <li> Dhaka, Bangladesh</li>
