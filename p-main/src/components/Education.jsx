@@ -9,7 +9,7 @@ const educationData = [
     institute: "City University Bangladesh",
     years: "July 2022 – July 2026",
     status: "3.97 / 4.00",
-    description: `Final-year B.Sc. in CSE student (CGPA: 3.97/4.00) with a primary focus on Flutter development.
+    description: `Final-year B.Sc. in CSE student with a primary focus on Flutter development.
 Skilled in building cross-platform mobile applications using Dart, Firebase, and REST APIs.
 Also experienced in native Android development (Java, Kotlin, MVVM).
 Completed a hands-on internship at SkillrexTech working on real-world mobile projects.`,
@@ -30,7 +30,7 @@ Actively participated in academic and extracurricular activities.`,
 
 const EducationTimeline = () => {
   return (
-    <section id="education" className="py-16 sm:py-20 lg:py-24 relative">
+    <section id="education" className="pt-16 pb-8 sm:pt-20 sm:pb-10 lg:pt-24 lg:pb-12 relative">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div

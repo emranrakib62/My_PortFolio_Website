@@ -34,7 +34,7 @@ const skills = [
     bgGradient: "from-[#3DDC84]/10 to-[#3DDC84]/5"
   },
   { 
-    name: "MVVM & Architecture", 
+    name: "MVVM Architecture", 
     icon: SiJetpackcompose, 
     level: 85,
     color: "#4285F4",
@@ -196,7 +196,7 @@ const AndroidSkills = () => {
         >
             <h4 className="text-gray-400 uppercase tracking-widest text-xs font-bold mb-4">Also Proficient In</h4>
             <div className="flex flex-wrap justify-center gap-4 text-gray-300">
-                {["ML Kit", "Neumorphism", "Push Notifications", "PHP", "Animations", "RESTful APIs"].map((item) => (
+                {["ML Kit", "Neumorphism", "Push Notifications", "PHP", "Animations", "RESTful APIs","AI Tools","C","Java","Python","HTML & CSS"].map((item) => (
                     <span key={item} className="px-4 py-1.5 bg-white/5 rounded-full text-sm border border-white/5">
                         {item}
                     </span>

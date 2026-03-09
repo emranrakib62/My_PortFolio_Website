@@ -5,6 +5,7 @@ import Contact from "../components/Contact";
 import EducationTimeline from "../components/Education";
 import Projects from "../components/Projects";
 import AndroidSkills from "../components/Skills";
+import Experience from "../components/Experience";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
  <AndroidSkills/>
       <EducationTimeline />
+      <Experience />
       <Projects />
       <Contact />
     </div>
