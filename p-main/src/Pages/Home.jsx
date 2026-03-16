@@ -6,6 +6,7 @@ import EducationTimeline from "../components/Education";
 import Projects from "../components/Projects";
 import AndroidSkills from "../components/Skills";
 import Experience from "../components/Experience";
+import ExtraCarriculer from "../components/ExtraCarriculer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
  <AndroidSkills/>
       <EducationTimeline />
       <Experience />
+      <ExtraCarriculer/>
       <Projects />
       <Contact />
     </div>

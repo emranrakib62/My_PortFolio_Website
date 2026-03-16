@@ -95,7 +95,7 @@ const ProjectCard = ({ project }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0d120f] via-transparent to-transparent opacity-80" />
         
         {project.isFeatured && (
-          <span className="absolute top-4 left-4 text-[10px] uppercase tracking-widest font-bold py-1 px-3 rounded-full bg-[#3DDC84] text-black">
+          <span className="absolute top-0 left-4 text-[10px] uppercase tracking-widest font-bold py-1 px-3 rounded-full bg-[#3DDC84] text-black">
             Featured Project
           </span>
         )}

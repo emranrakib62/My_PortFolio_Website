@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { motion } from "framer-motion";
+import Experience from "./Experience";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -17,6 +18,8 @@ const Navbar = () => {
       "about",
       "skills",
       "education",
+      "experience",
+      "ECA",
       "projects",
       "contact",
     ];
