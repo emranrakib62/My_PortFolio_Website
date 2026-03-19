@@ -33,8 +33,8 @@ const ecaData = {
     },
     {
       id: 3,
-      name: "National Collegiate Programming Contest (NCPC)",
-      detail: "Competed with top universities across the country in various competitive programming challenges."
+      name: "Graphics Design and Web Development Hands-on Session",
+      detail: "A practical training session focused on learning the basics of graphic design tools and building simple websites using modern web technologies."
     },
 {
   id: 4,
@@ -62,7 +62,7 @@ const ecaData = {
 
 const ECA = () => {
   return (
-    <section id="eca" className="py-20 relative overflow-hidden bg-[#0a0f0d]">
+    <section id="ECA" className="py-20 relative overflow-hidden bg-[#0a0f0d]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
         
         {/* Section Header */}

@@ -1,17 +1,17 @@
 import { useParams, Link } from "react-router";
 import { FaGithub, FaExternalLinkAlt, FaArrowLeft, FaCode, FaLightbulb, FaRocket } from "react-icons/fa";
-
+//
 const projectsData = [
   {
     id: 1,
-    image: "https://i.ibb.co.com/XfmTGMR8/Screenshot-2025-12-05-084646.jpg",
-    title: "Bill Management App",
+    image: "",
+    title: "",
     description:
-      "PayUp is a modern, responsive, and user-friendly billing management platform designed to simplify payment tracking and management. It provides users with an intuitive interface to manage their bills, track payments, and stay organized with their financial obligations.",
+      "PayUp is a modern, responsive platform built by Emranul Hoque to simplify utility bill tracking. It provides an intuitive interface for managing financial obligations and real-time payment status.",
     tags: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     type: "Full Stack",
-    github: "https://github.com/Shajidaa/Utility-Bill-Management-System-Client",
-    live: "https://payup-1204c.web.app/",
+    github: "",
+    live: "",
     techStack: [
       { name: "React", purpose: "Frontend framework for building interactive UI" },
       { name: "Node.js", purpose: "Backend runtime environment" },
@@ -35,14 +35,14 @@ const projectsData = [
   },
   {
     id: 2,
-    image: "https://i.ibb.co.com/NnN6xbSp/Screenshot-2025-12-05-085400.jpg",
+    image: "",
     title: "Toy E-commerce App",
     description:
-      "Toytopia is a comprehensive e-commerce platform dedicated to toys, offering a delightful shopping experience for parents and children. The platform features a wide range of toys with detailed descriptions, user reviews, and secure checkout process.",
+      "Toytopia is a comprehensive e-commerce platform developed by Emranul Hoque. It features secure checkout, product filtering, and a delightful UI tailored for a smooth shopping experience.",
     tags: ["React", "Firebase", "Daisy UI", "React Router"],
     type: "Full Stack",
-    github: "https://github.com/Shajidaa/Toytopia",
-    live: "https://toytopia-98c6a.web.app/",
+    github: "",
+    live: "",
     techStack: [
       { name: "React", purpose: "Frontend library for building UI components" },
       { name: "Firebase", purpose: "Backend services including authentication and database" },
@@ -66,13 +66,13 @@ const projectsData = [
   {
     id: 3,
     image: "https://i.ibb.co.com/DDMDqD6V/Screenshot-2025-12-05-090049.jpg",
-    title: "Revoza",
+    title: "",
     description:
-      "Revoza is a modern, responsive, and user-friendly e-commerce platform designed to deliver a smooth and interactive shopping experience. Built with Next.js for optimal performance and SEO, it offers a seamless shopping journey from browsing to checkout.",
+      "Revoza is a high-performance e-commerce solution engineered by Emranul Hoque using Next.js. It focuses on SEO optimization, server-side rendering, and a seamless user journey.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind CSS"],
-    type: "Full Stack",
-    github: "https://github.com/Shajidaa/Revoza",
-    live: "https://revoza.vercel.app/",
+    type: "",
+    github: "",
+    live: "",
     techStack: [
       { name: "Next.js", purpose: "React framework with SSR and SSG capabilities" },
       { name: "React", purpose: "UI library for component-based architecture" },
@@ -103,8 +103,8 @@ const ProjectDetails = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold text-purple-600 mb-4">Project Not Found</h2>
-          <Link to="/" className="text-purple-500 hover:underline">
+          <h2 className="text-2xl sm:text-3xl font-bold text-green-600 mb-4">Project Not Found</h2>
+          <Link to="/" className="text-green-500 hover:underline">
             Go back to home
           </Link>
         </div>
@@ -113,12 +113,12 @@ const ProjectDetails = () => {
   }
 
   return (
-    <section className="min-h-screen py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-[#0f1612]">
       <div className="container mx-auto max-w-6xl">
         {/* Back Button */}
         <Link
           to="/"
-          className="inline-flex items-center gap-2 text-sm sm:text-base text-purple-600 hover:text-purple-700 mb-6 sm:mb-8 transition-colors"
+          className="inline-flex items-center gap-2 text-sm sm:text-base text-green-400 hover:text-green-300 mb-6 sm:mb-8 transition-colors"
         >
           <FaArrowLeft />
           <span>Back to Projects</span>
@@ -126,19 +126,22 @@ const ProjectDetails = () => {
 
         {/* Project Header */}
         <div className="mb-8 sm:mb-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-linear-to-r from-purple-400 to-purple-900 text-transparent bg-clip-text mb-3 sm:mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 text-transparent bg-clip-text mb-3 sm:mb-4">
             {project.title}
           </h1>
-          <p className="text-sm sm:text-base md:text-lg text-gray-500 mb-4 sm:mb-6">
+          <p className="text-sm sm:text-base md:text-lg text-gray-400 mb-2">
             {project.description}
+          </p>
+          <p className="text-xs sm:text-sm font-medium text-green-500/80 mb-4 sm:mb-6 italic">
+            Developed with passion by Emranul Hoque
           </p>
 
           {/* Tags */}
-          <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
+          <div className="flex flex-wrap gap-2 mb-6">
             {project.tags.map((tag, index) => (
               <span
                 key={index}
-                className="text-xs sm:text-sm font-medium py-1 px-3 rounded-full bg-purple-100 text-purple-600"
+                className="text-xs sm:text-sm font-medium py-1 px-3 rounded-full bg-green-900/30 text-green-400 border border-green-500/20"
               >
                 {tag}
               </span>
@@ -146,12 +149,12 @@ const ProjectDetails = () => {
           </div>
 
           {/* Links */}
-          <div className="flex flex-wrap gap-3 sm:gap-4">
+          <div className="flex flex-wrap gap-4">
             <a
               href={project.live}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm sm:text-base"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-400 to-emerald-600 text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(16,185,129,0.4)] transition-all text-sm sm:text-base"
             >
               <FaExternalLinkAlt />
               <span>Live Demo</span>
@@ -160,7 +163,7 @@ const ProjectDetails = () => {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border-2 border-purple-600 text-purple-600 rounded-lg hover:bg-purple-50 transition-colors text-sm sm:text-base"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-green-500 text-green-400 rounded-lg hover:bg-green-500 hover:text-black transition-all text-sm sm:text-base"
             >
               <FaGithub />
               <span>View Code</span>
@@ -173,71 +176,57 @@ const ProjectDetails = () => {
           <img
             src={project.image}
             alt={project.title}
-            className="w-full h-auto rounded-xl sm:rounded-2xl shadow-lg"
+            className="w-full h-auto rounded-xl shadow-2xl border border-green-900/30"
           />
         </div>
 
         {/* Technology Stack */}
-        <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg mb-6 sm:mb-8">
-          <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-            <FaCode className="text-xl sm:text-2xl text-purple-600" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-600">
-              Technology Stack
-            </h2>
+        <div className="bg-[#161d19] rounded-2xl p-6 sm:p-8 border border-green-900/20 shadow-xl mb-8">
+          <div className="flex items-center gap-3 mb-6">
+            <FaCode className="text-2xl text-green-400" />
+            <h2 className="text-2xl sm:text-3xl font-bold text-green-400">Tech Stack Used</h2>
           </div>
-          <div className="divider my-3 sm:my-4 before:bg-purple-200 after:bg-purple-200"></div>
-          <div className="space-y-3 sm:space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {project.techStack.map((tech, index) => (
-              <div key={index} className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-lg">
-                <h3 className="text-base sm:text-lg font-semibold text-purple-600 min-w-[120px]">
-                  {tech.name}
-                </h3>
-                <p className="text-sm sm:text-base text-gray-600">{tech.purpose}</p>
+              <div key={index} className="p-4 bg-[#0f1612] border border-green-900/30 rounded-lg">
+                <h3 className="text-lg font-semibold text-green-400 mb-1">{tech.name}</h3>
+                <p className="text-sm text-gray-400">{tech.purpose}</p>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Challenges */}
-        <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg mb-6 sm:mb-8">
-          <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-            <FaLightbulb className="text-xl sm:text-2xl text-purple-600" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-600">
-              Challenges Faced
-            </h2>
+        {/* Challenges & Improvements */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="bg-[#161d19] rounded-2xl p-6 sm:p-8 border border-green-900/20 shadow-xl">
+            <div className="flex items-center gap-3 mb-6">
+              <FaLightbulb className="text-2xl text-yellow-400" />
+              <h2 className="text-2xl font-bold text-green-400">Challenges</h2>
+            </div>
+            <ul className="space-y-4">
+              {project.challenges.map((challenge, index) => (
+                <li key={index} className="flex gap-3 text-gray-400 text-sm sm:text-base">
+                  <span className="text-green-500 font-bold">0{index + 1}.</span>
+                  {challenge}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="divider my-3 sm:my-4 before:bg-purple-200 after:bg-purple-200"></div>
-          <ul className="space-y-3 sm:space-y-4">
-            {project.challenges.map((challenge, index) => (
-              <li key={index} className="flex gap-3 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-lg">
-                <span className="text-purple-600 font-bold text-base sm:text-lg flex-shrink-0">
-                  {index + 1}.
-                </span>
-                <p className="text-sm sm:text-base md:text-lg text-gray-600">{challenge}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
 
-        {/* Future Improvements */}
-        <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 shadow-lg">
-          <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-            <FaRocket className="text-xl sm:text-2xl text-purple-600" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-600">
-              Future Improvements
-            </h2>
+          <div className="bg-[#161d19] rounded-2xl p-6 sm:p-8 border border-green-900/20 shadow-xl">
+            <div className="flex items-center gap-3 mb-6">
+              <FaRocket className="text-2xl text-blue-400" />
+              <h2 className="text-2xl font-bold text-green-400">Future Roadmap</h2>
+            </div>
+            <ul className="space-y-4">
+              {project.improvements.map((improvement, index) => (
+                <li key={index} className="flex gap-3 text-gray-400 text-sm sm:text-base">
+                  <span className="text-green-500 font-bold">→</span>
+                  {improvement}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="divider my-3 sm:my-4 before:bg-purple-200 after:bg-purple-200"></div>
-          <ul className="space-y-3 sm:space-y-4">
-            {project.improvements.map((improvement, index) => (
-              <li key={index} className="flex gap-3 sm:gap-4 p-3 sm:p-4 bg-gray-50 rounded-lg">
-                <span className="text-purple-600 font-bold text-base sm:text-lg flex-shrink-0">
-                  {index + 1}.
-                </span>
-                <p className="text-sm sm:text-base md:text-lg text-gray-600">{improvement}</p>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>

@@ -16,16 +16,6 @@ Completed a hands-on internship at SkillrexTech working on real-world mobile pro
   },
 
 
-  {
-    id: 2,
-    title: "Higher Secondary School Certificate(HSC)",
-    institute: "Ruposhi Bangla Collage",
-    years: "July 2017 – 2019",
-    status: "4.17 / 5.00",
-    description: `Completed Higher Secondary Certificate (HSC) in Science with a GPA of 4.17/5.00.
-Built a strong foundation in Mathematics, Physics, and ICT, which later inspired my interest in Computer Science.
-Actively participated in academic and extracurricular activities.`,
-  }
 ];
 
 const EducationTimeline = () => {
