@@ -72,7 +72,7 @@ const Navbar = () => {
   };
 
   const handleResumeClick = () => {
-    window.open("#", "_blank");
+    window.open("https://drive.google.com/file/d/1Oes10eY3ceQVbWhDZ9tUCpre4ywj_GyN/view?usp=drive_link", "_blank");
   };
 
   const getNavLinkClass = (id) => `
