@@ -6,7 +6,7 @@ const projectData = [
   {
     id: 1,
     title: "University Management Systsem app",
-    description: "A smart time‑capsule app built for Android devices. Features secure local storage and scheduled notifications to remind users of precious memories.",
+    description: "A University Management System is an application where all university information such as student details, courses, results, and administrative data can be accessed in one place.",
     tags: ["Android SDK", "Java", "SQLite", "Room DB"],
 
     image: 
@@ -18,12 +18,12 @@ const projectData = [
   },
   {
     id: 2,
-    title: "MoodSketch App",
-    description: "Offline mood‑based sketch drawing app. Utilizes custom canvas views and Neumorphic UI elements for a relaxing creative experience.",
-    tags: ["Kotlin", "Custom Views", "MVVM", "Figma"],
-    image: "/images/mood1.png",
-    github: "https://github.com/yourrepo2",
-    video: "https://youtube.com/watch?v=demo2",
+    title: "E-Commerce App",
+    description: "An E-commerce app is a mobile application that allows users to browse products, place orders, and make online payments to buy goods and services easily from anywhere.",
+    tags: ["Kotlin", "Java", "MVVM", "Firebase","API"],
+    image: "/images/mod1.png",
+    github: "https://github.com/emranrakib62/E-Commerce-app",
+    video: "https://www.youtube.com/shorts/ZoG3AAYMaEE",
     isFeatured: false,
   },
 
