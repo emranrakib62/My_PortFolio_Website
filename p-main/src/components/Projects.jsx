@@ -14,7 +14,7 @@ const projectData = [
         
     github: "https://github.com/emranrakib62/city_university_management_system_App",
     video: "https://www.youtube.com/shorts/5Zgj9Z6TJP4",
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     id: 2,
@@ -30,13 +30,14 @@ const projectData = [
 
 {
     id: 3,
-    title: "MemoryBox App",
-    description: "A smart time‑capsule app built for Android devices. Features secure local storage and scheduled notifications to remind users of precious memories.",
-    tags: ["Android SDK", "Java", "SQLite", "Room DB"],
+    title: "StopWatch Loaction Tracker Wallpaper To-Do Flashlight Apps",
+    description: "An all-in-one Android utility app featuring a stopwatch, real-time location tracker, wallpaper manager, to-do notes, and flashlight tools with a simple and user-friendly interface.",
+    tags: ["Android", "Kotlin", "Google Maps", "GPS Tracking", "Room Database", "Android SDK"],
     // Use the first image from your array as the cover
-    image: "/images/app1.png", 
-    github: "https://github.com/yourrepo",
-    video: "https://youtube.com/watch?v=demo",
+    image: "/images/app4.png", 
+    github: "https://github.com/emranrakib62/Android-Kotlin-Complete-Apps",
+  
+    video: "https://www.youtube.com/watch?v=y6w5G80K46A",
     isFeatured: false,
   },
   {
