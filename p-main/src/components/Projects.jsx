@@ -42,12 +42,12 @@ const projectData = [
   },
   {
     id: 4,
-    title: "MoodSketch App",
-    description: "Offline mood‑based sketch drawing app. Utilizes custom canvas views and Neumorphic UI elements for a relaxing creative experience.",
-    tags: ["Kotlin", "Custom Views", "MVVM", "Figma"],
-    image: "/images/mood1.png",
-    github: "https://github.com/yourrepo2",
-    video: "https://youtube.com/watch?v=demo2",
+    title: "Quiz Company Portfolio Calculator Number Converter Apps",
+description: "A collection of Android applications including a quiz app, company portfolio app, calculator, and number converter. Built with modern UI design, smooth navigation, and offline functionality using Kotlin and Android SDK.",
+  tags: ["Java", "Android SDK", "Custom Views", "XML UI"],
+    image: "/images/mem2.png",
+    github: "https://github.com/emranrakib62/Java-Complete-Android-Apps",
+    video: "https://www.youtube.com/watch?v=C86cfSs7Kb4",
     isFeatured: false,
   },
 
