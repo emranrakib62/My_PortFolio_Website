@@ -11,11 +11,13 @@ const Navbar = () => {
   useEffect(() => {
     if (location.pathname !== "/") return;
 
+    
     const sections = [
       "home",
       "about",
       "skills",
       "experience",
+      "Research",
       "ECA",
       "projects",
       "contact",
@@ -82,12 +84,14 @@ const Navbar = () => {
       : "text-gray-400 hover:text-green-400"}
   `;
 
+ 
   const navItems = (
     <>
       <li><a onClick={() => scrollToSection("home")} className={getNavLinkClass("home")}>Home</a></li>
       <li><a onClick={() => scrollToSection("about")} className={getNavLinkClass("about")}>About</a></li>
       <li><a onClick={() => scrollToSection("skills")} className={getNavLinkClass("skills")}>Skills</a></li>
       <li><a onClick={() => scrollToSection("experience")} className={getNavLinkClass("experience")}>Experience</a></li>
+      <li><a onClick={() => scrollToSection("Research")} className={getNavLinkClass("Research")}>Research</a></li>
       <li><a onClick={() => scrollToSection("ECA")} className={getNavLinkClass("ECA")}>ECA</a></li>
       <li><a onClick={() => scrollToSection("projects")} className={getNavLinkClass("projects")}>Projects</a></li>
       <li><a onClick={() => scrollToSection("contact")} className={getNavLinkClass("contact")}>Contact</a></li>

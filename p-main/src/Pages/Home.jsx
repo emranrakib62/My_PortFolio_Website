@@ -1,3 +1,4 @@
+import Research from "../components/Research";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
@@ -17,6 +18,7 @@ const Home = () => {
  <AndroidSkills/>
       <EducationTimeline />
       <Experience />
+      <Research/>
       <ExtraCarriculer/>
       <Projects />
       <Contact />
