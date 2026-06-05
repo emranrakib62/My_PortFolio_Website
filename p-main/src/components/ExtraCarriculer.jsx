@@ -9,14 +9,17 @@ const ecaData = {
       title: "Ambassador",
       organization: "International Computer Science Competition (ICSC)",
       period: "Feb-2026 - Present",
-      
+     
+      link: "https://icscompetition.org/en/ehoque", 
       description: "The International Computer Science Competition (ICSC) is a three-stage global online contest for students that tests programming, logical reasoning, and theoretical computer science research."
     }, 
     {
       id: 2,
       title: "Ambassador",
       organization: "International Astronomy and Astrophysics Competition (IAAC)",
-      period: "jun-2025 -present",
+      period: "Jun-2025 - Present",
+     
+      link: "https://iaac.space/en/ehoque", 
       description: "Facilitated student participation in astrophysics competitions and managed campus-level outreach programs."
     }
   ],
@@ -36,27 +39,21 @@ const ecaData = {
       name: "Graphics Design and Web Development Hands-on Session",
       detail: "A practical training session focused on learning the basics of graphic design tools and building simple websites using modern web technologies."
     },
-{
-  id: 4,
-  name: "Bangladesh Economics Olympiad (BDEO)",
-  detail: "Selected for the national level competition, demonstrating proficiency in economic theory, financial literacy, and analytical problem-solving."
-},
-
-{
-    id: 5,
-    name: "International Computer Science Competition (ICSC)",
-    detail: "Competed in a global challenge covering programming, logical reasoning, and theoretical computer science research."
-  },
-  {
-    id: 6,
-    name: "Climate Science Olympiad-2023(CSO)",
-    detail: "Participated in the world's leading climate-focused competition, proposing science-based solutions to complex environmental issues."
-  },
-
-
-
-
-
+    {
+      id: 4,
+      name: "Bangladesh Economics Olympiad (BDEO)",
+      detail: "Selected for the national level competition, demonstrating proficiency in economic theory, financial literacy, and analytical problem-solving."
+    },
+    {
+      id: 5,
+      name: "International Computer Science Competition (ICSC)",
+      detail: "Competed in a global challenge covering programming, logical reasoning, and theoretical computer science research."
+    },
+    {
+      id: 6,
+      name: "Climate Science Olympiad-2023(CSO)",
+      detail: "Participated in the world's leading climate-focused competition, proposing science-based solutions to complex environmental issues."
+    }
   ]
 };
 
@@ -87,16 +84,31 @@ const ECA = () => {
             <motion.div
               key={role.id}
               whileHover={{ y: -5 }}
-              className="bg-[#0f1612] p-8 rounded-2xl border border-green-900/30 hover:border-green-500/40 transition-all shadow-lg hover:shadow-green-500/10 group"
+              className="bg-[#0f1612] p-8 rounded-2xl border border-green-900/30 hover:border-green-500/40 transition-all shadow-lg hover:shadow-green-500/10 group relative"
             >
               <div className="flex items-start gap-4">
                 <div className="p-4 bg-green-900/20 rounded-xl text-green-400 group-hover:bg-green-500 group-hover:text-black transition-all">
                   <FaGlobe className="text-2xl" />
                 </div>
-                <div>
-                  <div className="flex justify-between items-start">
-                    <h3 className="text-xl font-bold text-white mb-1">{role.title}</h3>
-                    <span className="text-xs text-gray-500 font-mono mt-1">{role.period}</span>
+                <div className="w-full">
+                  <div className="flex justify-between items-start gap-2">
+                    <div className="flex items-center gap-2">
+                      <h3 className="text-xl font-bold text-white mb-1">{role.title}</h3>
+                      
+                      {/* এক্সটার্নাল লিঙ্ক বাটন */}
+                      {role.link && (
+                        <a 
+                          href={role.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-gray-500 hover:text-green-400 transition-colors p-1"
+                          title="View Profile/Page"
+                        >
+                          <FaExternalLinkAlt className="text-sm" />
+                        </a>
+                      )}
+                    </div>
+                    <span className="text-xs text-gray-500 font-mono mt-1 whitespace-nowrap">{role.period}</span>
                   </div>
                   <p className="text-green-500 font-medium mb-2">{role.organization}</p>
                   <p className="text-gray-400 text-sm leading-relaxed">{role.description}</p>
