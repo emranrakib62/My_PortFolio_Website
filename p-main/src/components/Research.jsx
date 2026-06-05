@@ -18,7 +18,7 @@ const researchData = [
 
 const Research = () => {
   return (
-    // ওপর-নিচের স্পেস টাইট রাখা হয়েছে (py-6)
+    
     <section id="Research" className="py-6 relative overflow-hidden bg-[#0a0f0d]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
         
@@ -31,14 +31,14 @@ const Research = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-green-500/10 rounded-full mb-3 border border-green-500/20">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-            <span className="font-semibold text-xs text-green-400 uppercase tracking-wider">Publications & Studies</span>
+            <span className="font-semibold text-xs text-green-400 uppercase tracking-wider">Research & Thesis</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 to-emerald-600 text-transparent bg-clip-text">
             Research Work
           </h2>
         </motion.div>
 
-        {/* একক কার্ডের ভেতর শুধু বইয়ের আইকনসহ ৩টি প্রজেক্টের লিস্ট */}
+        
         <div className="w-full mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -55,7 +55,7 @@ const Research = () => {
                   key={item.id} 
                   className="flex items-start gap-4 text-base sm:text-lg text-gray-300 hover:text-green-400 transition-colors duration-200 py-1"
                 >
-                  {/* প্রতিটি প্রজেক্টের শুরুতে সবুজ রঙের বইয়ের আইকন */}
+                
                   <FaBookOpen className="text-green-500 mt-1.5 text-base sm:text-lg shrink-0" />
                   <span className="font-medium leading-relaxed text-white hover:text-green-400 transition-colors duration-200">
                     {item.title}
