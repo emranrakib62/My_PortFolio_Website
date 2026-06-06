@@ -18,7 +18,6 @@ const researchData = [
 
 const Research = () => {
   return (
-    
     <section id="Research" className="py-6 relative overflow-hidden bg-[#0a0f0d]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
         
@@ -38,8 +37,8 @@ const Research = () => {
           </h2>
         </motion.div>
 
-        
-        <div className="w-full mx-auto">
+        {/* 100% Width Main Card Container */}
+        <div className="w-full max-w-full mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +54,6 @@ const Research = () => {
                   key={item.id} 
                   className="flex items-start gap-4 text-base sm:text-lg text-gray-300 hover:text-green-400 transition-colors duration-200 py-1"
                 >
-                
                   <FaBookOpen className="text-green-500 mt-1.5 text-base sm:text-lg shrink-0" />
                   <span className="font-medium leading-relaxed text-white hover:text-green-400 transition-colors duration-200">
                     {item.title}

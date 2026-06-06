@@ -6,7 +6,7 @@ const educationData = [
   {
     id: 1,
     title: "B.Sc. in Computer Science & Engineering (CSE)",
-    institute: "City University Bangladesh",
+    institute: "City University of Bangladesh",
     years: "July 2022 – July 2026",
     status: "3.97 / 4.00",
     description: `Final-year B.Sc. in CSE student with a primary focus on Flutter development.
