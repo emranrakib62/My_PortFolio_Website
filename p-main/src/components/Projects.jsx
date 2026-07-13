@@ -55,13 +55,13 @@ description: "A collection of Android applications including a quiz app, company
 
 {
     id: 5,
-    title: "MemoryBox App",
-    description: "A smart time‑capsule app built for Android devices. Features secure local storage and scheduled notifications to remind users of precious memories.",
-    tags: ["Android SDK", "Java", "SQLite", "Room DB"],
+    title: "Online Shop App",
+    description: "A stylish Android shopping app designed for a smooth and modern e-commerce experience. Features product browsing, category filtering, cart management, secure checkout, and a clean fashion-focused user interface.",
+    tags: ["Android SDK", "Java","Xml", "SQLite", "FireBase"],
     // Use the first image from your array as the cover
-    image: "/images/app1.png", 
-    github: "https://github.com/yourrepo",
-    video: "https://youtube.com/watch?v=demo",
+    image: "/images/online.png", 
+    github: "https://github.com/emranrakib62/Online-Shop-App",
+    video: "https://www.youtube.com/watch?v=3RhkxSD5kYg&t=84s",
     isFeatured: false,
   },
   {

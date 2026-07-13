@@ -48,12 +48,7 @@ const About = () => {
         >
           {/* Introduction Paragraph */}
           <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-6 sm:mb-8">
-            Final-year BSc in CSE student at City University of Bangladesh with a strong focus on Android development.
-Skilled in building user-friendly mobile applicaƟons using Java, Kotlin, Android SDK, MVVM architecture,
-and Firebase. Successfully completed a hands-on internship at SkillrexTech, contribuƟng to real-world
-projects. Proficient in RESTful API integraƟon using Retrofit, and passionate about creaƟng scalable and
-efficient applicaƟons. Open to both remote and onsite opportuniƟes to contribute and grow as a mobile
-developer.
+Graduated with a BSc in Computer Science and Engineering from City University of Bangladesh, with a strong focus on mobile application development and an interest in Artificial Intelligence and research. Experienced in building Android and cross-platform applications using Java, Kotlin, and Flutter, along with Android SDK, MVVM architecture, Firebase, Retrofit, and RESTful API integration. Completed a hands-on internship at SkillrexTech, contributing to real-world mobile application projects. Passionate about developing scalable, efficient, and user-friendly applications, with a keen interest in AI, intelligent systems, and research-based problem solving. Open to both remote and onsite opportunities to grow as a mobile developer.
           </p>
 
     
