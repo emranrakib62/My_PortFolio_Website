@@ -71,8 +71,7 @@ const Navbar = () => {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
-  };
-git 
+  }; 
   const handleResumeClick = () => {
     window.open("https://drive.google.com/file/d/1a-6neHogWvswhQcL-b3qDrlOCC7SFEc0/view?usp=sharing", "_blank");
   };
