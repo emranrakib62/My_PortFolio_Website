@@ -72,9 +72,9 @@ const Navbar = () => {
       }
     }
   };
-
+git 
   const handleResumeClick = () => {
-    window.open("https://drive.google.com/file/d/1Oes10eY3ceQVbWhDZ9tUCpre4ywj_GyN/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1a-6neHogWvswhQcL-b3qDrlOCC7SFEc0/view?usp=sharing", "_blank");
   };
 
   const getNavLinkClass = (id) => `
